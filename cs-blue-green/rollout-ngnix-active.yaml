@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: rollout-active # <- active 
+  name: rollout-bluegreen-active # <- active 
 spec:
   type: LoadBalancer
   selector:
